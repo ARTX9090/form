@@ -8,15 +8,38 @@
 <body>
     <form action="" method="get" enctype="" autocomplete="on">
         <p>Имя пользователя</p>
-        <input type="text" name="имя кнопки" value="" onclick="">
+        <input type="text" name="имя кнопки" value="">
         <p>Почта пользователя</p>
-        <input type="email" name="" id="">
+        <input type="email" name="email" value="">
         <p>Пароль</p>
-        <input type="password">
-        <input type="color">
+        <input type="password" name="password" value="">
         <br>
-        <button type="submit">Отправка на сервер</button>
+        <input type="color" value="">
+        <br>
+        <button type="submit" value="">Отправка на сервер</button>
     </form>
+    <form action="">
+        <h2>Выбор сеанса</h2>
+        <p>Кинотеатр</p>
+        <input type="text" name="cinema" value="" required placeholder="Введите название кинотеатра">
+        <p>Фильм:</p>
+        <input type="text" name="Film" required placeholder="Введите название фильма">
+        <p>Время:</p>
+        <input type="time" name="time" required>
+        <p>Стоимость</p>
+        <input type="number" name="cost" required placeholder="Введите стоимость">
+        <br><br>
+        <button type="submit">Отправить данные</button>
+    </form>
+    <br> <br>
+    <Form>
+        <h2>Любимый цвет</h2>
+        <label><input type="radio" name="color" value="yellow"> Жёлтый</label><br>
+        <label><input type="radio" name="color" value="red"> Красный </label><br>
+        <label><input type="radio" name="color" value="blue"> Синий</label>
+        <br><br>
+        <button type="submit">Отправить данные</button>
+    </Form>
     
 </body>
 </html>
